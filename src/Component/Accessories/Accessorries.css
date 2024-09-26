@@ -1,0 +1,171 @@
+/* First Row Container */
+
+.turyadesign-Accessories-container{
+    padding-top: 50px;
+    overflow: hidden;
+}
+.turyaAccessories-Tray-Firstcolumn, .turyaAccessories-Tray-Secondcolumn{
+    padding: 0;
+    margin: 0;
+}
+.turyaAccessories-Tray-Secondcolumn{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.TuryaAccessories-Heading h1{
+    text-align: start;
+    padding-left: 15px;
+}
+.TuryaAccessories-Tray-first-one,.TuryaAccessories-Tray-first-two,.TuryaAccessories-Tray-first-oneplus,.TuryaAccessories-Tray-first-three{
+    text-align: center;
+}
+.TuryaAccessories-Tray-first-one{
+    margin-top: 120px;
+}
+
+.TuryaAccessories-Tray-first-one img{
+    width: 70%;
+    height: auto;
+}
+.TuryaAccessories-Tray-first-oneplus img{
+    width: 70%;
+    height: auto;
+}
+.TuryaAccessories-Tray-first-two img{
+    width: 70%;
+    height: auto;
+}
+.TuryaAccessories-Tray-first-three img{
+    width: 70%;
+    height: auto;
+}
+
+
+.TuryaAccessories-Tray-second-one,.TuryaAccessories-Tray-second-two,.TuryaAccessories-Tray-second-three{
+    text-align: center;
+}
+.TuryaAccessories-Tray-second-one img{
+    width: 70%;
+    height: auto;
+}
+.TuryaAccessories-Tray-second-two img{
+    width: 70%;
+    height: auto;
+}
+.TuryaAccessories-Tray-second-three img{
+    width: 70%;
+    height: auto;
+}
+
+
+/* Second Row Container */
+
+.TuryaAccessories-Secondrow-First-container{
+    text-align: center;
+}
+.TuryaAccessories-Secondrow-Second-container{
+    align-self: center;
+    text-align: center;
+    padding: 0px;
+}
+.TuryaAccessories-Secondrow-Third-container{
+    text-align: center;
+}
+.TuryaAccessories-Firstone-inner-container{
+    text-align: center;
+}
+.TuryaAccessories-Firstone-inner-container img{
+    width: 90%;
+    height: auto;
+}
+
+.TuryaAccessories-secondone-inner-container img{
+    width: 100%;
+    height: auto;
+}
+.TuryaAccessories-Thirdone-inner-container img{
+    width: 90%;
+    height: auto;
+}
+
+/* Next Arrow Container */
+
+.TuryaAccessories-NextArrow-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 15px;
+    gap: 10px;
+}
+.TuryaAccessories-Next-Heading{
+    font-size: 18px;
+    font-weight: 400;
+}
+.TuryaAccessories-Next-Arrow-img{
+    width: 3%;
+    height: auto;
+    padding-bottom: 8px;
+}
+
+
+
+
+/* Media Query */
+
+@media (max-width: 500px){
+
+    .turyaAccessories-Tray-Firstcolumn, .turyaAccessories-Tray-Secondcolumn{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    /* First Row Container */
+
+    .TuryaAccessories-Tray-first-one{
+        margin-top: 0px;
+    }
+    .TuryaAccessories-Tray-first-oneplus{
+        margin-top: 0px;
+    }
+    .TuryaAccessories-Tray-first-two,.TuryaAccessories-Tray-first-three{
+        text-align: center;
+    }
+
+    /* Second Row Container */
+
+    .TuryaAccessories-second-one img{
+        width: 80%;
+        height: auto;
+    }
+    .TuryaAccessories-second-two img{
+        width: 80%;
+        height: auto;
+    }
+    .TuryaAccessories-second-three img{
+        width: 80%;
+        height: auto;
+    }
+
+    .TuryaAccessories-Firstone-inner-container{
+        text-align: center;
+    }
+    .TuryaAccessories-secondone-inner-container{
+        text-align: center;
+    }
+    .TuryaAccessories-thirdrow-innerImage-one{
+        width: 100%;
+        height: auto;
+    }
+    .TuryaAccessories-NextArrow-container{
+        align-items: center;
+    }
+    .TuryaAccessories-Next-Arrow-img{
+        width: 10%;
+        height: auto;
+        
+    }
+    
+}
